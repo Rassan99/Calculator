@@ -69,9 +69,9 @@ clearButton.addEventListener('click', () => {
     x='';
 });
 
-
 buttonNumbers.forEach(number => {
     number.addEventListener('click', () => {
         x += number.getAttribute('value');
     });
   });
+  console.log();
