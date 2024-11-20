@@ -1,0 +1,19 @@
+#container{
+    display:flex ;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 614px;
+}
+button{
+    font-size: 40px;
+
+}
+#calcOutline{
+        display: flex;
+        flex-wrap: wrap;
+        width: 163px;
+        align-items: center;
+        align-content: center;
+}
