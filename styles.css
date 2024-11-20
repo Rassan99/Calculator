@@ -3,17 +3,32 @@
     background: rgb(255, 255, 255);
     justify-content: center;
     flex-wrap: wrap;
-    width: 960px;
-    height: 614px;
-}
+    width:100%;}
 button{
-    font-size: 40px;
-
+    font-size: 63px;
+    width: 25%;
+    padding: 9px;
 }
 #calcOutline{
         display: flex;
         flex-wrap: wrap;
-        width: 163px;
+        width: 235px;
         align-items: center;
         align-content: center;
+        justify-content: space-around;
+        background:rgb(114, 40, 199);
+}
+#result{
+    width: 177px;
+    height: 39px;
+    font-size: large;
+    color: aliceblue;
+    color: aliceblue;
+    display: flex;
+    padding: 10px;}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
 }
